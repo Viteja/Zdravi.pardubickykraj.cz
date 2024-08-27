@@ -1,0 +1,94 @@
+.obcan {
+  background-image: url(/img/obcan.webp);
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lekar {
+  background-image: url(/img/lekar.webp);
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main {
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: width 0.3s;
+}
+
+.lekar:hover {
+  width: 70%;
+}
+
+.obcan:hover {
+  width: 70%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.main-title {
+  font-size: 22px;
+  padding: 10px 15px;
+  width: 60%;
+  display: flex;
+}
+
+.lekar .main-title {
+  background: linear-gradient(90deg, rgba(0, 97, 173, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 0;
+  justify-content: flex-start;
+}
+
+.main-title h2 {
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.obcan .main-title {
+  background: linear-gradient(90deg, rgba(228, 5, 32, 0.01) 0%, rgba(198, 48, 48, 1) 100%);
+  margin-top: 6.5rem;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .lekar {
+    width: 100%;
+  }
+
+  .obcan {
+    width: 100%;
+  }
+
+  .main {
+    height: 50vh;
+  }
+
+  .lekar:hover {
+    width: 100%;
+  }
+
+  .obcan:hover {
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 18px;
+  }
+}

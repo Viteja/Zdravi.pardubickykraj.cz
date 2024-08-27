@@ -1,0 +1,208 @@
+nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.menu a {
+  cursor: pointer;
+}
+
+.navbar ul li .active {
+  display: inline;
+  background-color: var(--red) !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.navbar ul li:nth-child(2) .active {
+  display: inline;
+  background-color: var(--blue) !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-scroll {
+  background-color: rgba(255, 255, 255, 0.8);
+  filter: blur(0px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .logo h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+
+.navbar .logo h1 b {
+  font-weight: 400;
+}
+
+.navbar .logo h1 .blue-logo {
+  color: var(--blue);
+}
+
+.navbar .logo h1 .red-logo {
+  color: var(--red);
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 1.25rem 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-left: 50px;
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.regular {
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.navbar ul li .regular {
+  background: linear-gradient(to right, var(--red), var(--red) 50%, transparent 50%);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+  background-size: 210% 110%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.navbar ul li:nth-child(2) .regular {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, var(--blue), var(--blue) 50%, transparent 50%);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+  background-size: 210% 110%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.navbar ul li .regular:hover {
+  -webkit-text-fill-color: white;
+  background-position: 0 100%;
+}
+
+.navbar ul li:nth-child(2) .regular:hover {
+  -webkit-text-fill-color: white;
+  background-position: 0 100%;
+}
+
+.primary-btn {
+  background-color: var(--yellow);
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+nav .nav-changer {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  nav .nav-changer {
+    display: block;
+    color: var(--blue);
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 2rem;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar {
+    background-color: white;
+    padding: 0.25rem 0;
+  }
+
+  .navbar .show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    top: 4rem;
+    background-color: white;
+    padding: 1rem 0;
+    align-items: center;
+  }
+
+  nav .show li {
+    margin: 1.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .nav-changer {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .navbar .logo h1 {
+    font-size: 0.8rem;
+  }
+
+  .navbar .logo img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navbar .show {
+    top: 3rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

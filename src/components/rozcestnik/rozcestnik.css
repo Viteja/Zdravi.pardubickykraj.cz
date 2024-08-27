@@ -1,0 +1,159 @@
+.rozcestnik {
+  margin: 8rem 0;
+}
+.rozcestnik-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rozcestnik-menu {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+}
+
+.active-odkaz {
+  background: linear-gradient(90deg, rgba(228, 5, 32, 0.7484243697478992) 10%, rgba(228, 5, 31, 0) 90%) !important;
+}
+
+#lekar .active-odkaz {
+  background: linear-gradient(90deg, rgba(0, 97, 173, 0.8016456582633054) 10%, rgba(0, 98, 173, 0) 90%) !important;
+}
+
+.rozcestnik-menu:nth-child(2) {
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.rozcestnik-menu .odkaz h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.rozcestnik-menu .odkaz img {
+  width: 30px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.odkaz-title {
+  display: flex;
+  align-items: center;
+}
+
+.rozcestnik-menu .odkaz:hover i {
+  animation: bounce 0.3s;
+}
+
+.rozcestnik-menu .odkaz {
+  margin: 0.5rem 0;
+  padding: 1.25rem 2rem;
+  width: 95%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #e4051fae, #e4051f00 40%, transparent 60%);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+  background-size: 210% 110%;
+  background-position: 100%;
+  transition: background-position 300ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.rozcestnik-menu .odkaz:hover {
+  border: 2px solid #e4051f98;
+  transition: all 0.3s;
+  background-position: 0 100%;
+}
+
+#lekar .rozcestnik-menu .odkaz:hover {
+  border: 2px solid #0062adc0;
+  transition: all 0.3s;
+  background-position: 0 100%;
+}
+
+#lekar .rozcestnik-menu .odkaz {
+  margin: 0.5rem 0;
+  padding: 1.25rem 2rem;
+  width: 95%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #0062ad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #0061adae, #0062ad00 40%, transparent 60%);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+  background-size: 210% 110%;
+  background-position: 100%;
+  transition: background-position 300ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .rozcestnik-content {
+    flex-direction: column;
+  }
+
+  .rozcestnik-menu {
+    width: 100%;
+  }
+
+  .rozcestnik-menu .odkaz {
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 80px;
+  }
+
+  #lekar .rozcestnik-menu .odkaz {
+    margin: 0.5rem 0;
+  }
+
+  .rozcestnik-menu:nth-child(2) {
+    flex-wrap: wrap;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .rozcestnik-menu .odkaz {
+    padding: 1rem 1rem;
+    height: 70px;
+  }
+
+  .rozcestnik-menu .odkaz h5 {
+    font-size: 16px;
+  }
+
+  .rozcestnik-menu .odkaz img {
+    width: 25px;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

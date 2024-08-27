@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.obcan-title {
+  margin: 4rem 0 2rem 0;
+}
+
+.obcan-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+.obcan-title h5 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 0;
+}
+
+.lekar-title {
+  margin: 4rem 0 2rem 0;
+}
+
+.lekar-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+.lekar-title h5 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0;
+}
+
+.semi-content p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}

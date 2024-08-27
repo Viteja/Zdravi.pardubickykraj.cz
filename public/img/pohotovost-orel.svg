@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Vrstva_2" data-name="Vrstva 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.13 59.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Vrstva_4" data-name="Vrstva 4">
+    <line class="cls-1" x1="1" y1="58.56" x2="163.13" y2="58.56"/>
+    <line class="cls-1" x1="157.45" y1="13.01" x2="157.45" y2="58.56"/>
+    <polyline class="cls-1" points="99.39 13.01 99.39 58.56 99.39 17.66 10.53 17.66 52.42 17.66 52.42 58.56"/>
+    <polyline class="cls-1" points="66.61 58.56 66.61 39.59 89.06 39.59 89.06 58.56"/>
+    <polyline class="cls-1" points="20.42 39.59 32.03 39.59 32.03 47.85"/>
+    <polyline class="cls-1" points="20.42 24.88 32.03 24.88 32.03 33.14"/>
+    <polyline class="cls-1" points="36.13 24.88 47.74 24.88 47.74 33.14"/>
+    <polyline class="cls-1" points="36.13 39.59 47.74 39.59 47.74 47.85"/>
+    <polyline class="cls-1" points="55.65 24.3 64.41 24.3 64.41 28.59"/>
+    <polyline class="cls-1" points="85.69 24.3 94.45 24.3 94.45 28.59"/>
+    <polyline class="cls-1" points="70.67 24.3 79.43 24.3 79.43 28.59"/>
+    <polyline class="cls-1" points="110.08 29.21 110.09 20.45 114.38 20.45"/>
+    <polyline class="cls-1" points="116.71 29.21 116.71 20.45 121 20.45"/>
+    <polyline class="cls-1" points="123.29 29.21 123.29 20.45 127.58 20.45"/>
+    <polyline class="cls-1" points="110.51 46.53 110.52 37.77 114.81 37.77"/>
+    <polyline class="cls-1" points="117.13 46.53 117.14 37.77 121.43 37.77"/>
+    <polyline class="cls-1" points="123.72 46.53 123.72 37.77 128.01 37.77"/>
+    <path class="cls-1" d="M1,37.77S1.26-16.48,9.13,6.81c.04.13.06.27.09.4.68,2.63,4.73,37.77.92,44.65-.35.64-1.04,1.02-1.77,1.02h0c-1.12,0-2.02.91-2.02,2.02v3.65"/>
+    <polyline class="cls-1" points="9.22 7.21 62.23 7.21 62.23 13.59 10.1 13.59"/>
+    <polyline class="cls-1" points="62.23 13.01 67.42 13.01 67.42 17.66"/>
+    <line class="cls-1" x1="99.39" y1="13.59" x2="157.45" y2="13.59"/>
+    <rect class="cls-1" x="65.58" y="31.14" width="23.48" height="4.65"/>
+  </g>
+</svg>

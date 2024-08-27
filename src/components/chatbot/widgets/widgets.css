@@ -1,0 +1,48 @@
+.btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.obcan-btn {
+  background-color: var(--red);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.obcan-btn h5 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.obcan-btn:hover {
+  background-color: #f00;
+}
+
+.btn h5 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background-color: #1877f2;
+}

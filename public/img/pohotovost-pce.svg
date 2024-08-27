@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Vrstva_2" data-name="Vrstva 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.03 82.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Vrstva_2-2" data-name="Vrstva 2">
+    <polyline class="cls-1" points="102.68 .94 90.81 5.2 90.81 12.81 48.35 25.97 27.97 16.81 1 30.62 1 81.2 106.03 81.2"/>
+    <line class="cls-1" x1="90.81" y1="12.81" x2="90.81" y2="81.2"/>
+    <polyline class="cls-1" points="102.29 57.84 99.19 57.84 99.19 71.39"/>
+    <polyline class="cls-1" points="102.29 34.17 99.19 35.44 99.19 47.78"/>
+    <polyline class="cls-1" points="102.29 9.84 99.19 11.13 99.19 24.04"/>
+    <polyline class="cls-1" points="9.77 32.3 5.77 34.17 5.77 41.07"/>
+    <polyline class="cls-1" points="9.77 47.01 5.77 48.68 5.77 55.52"/>
+    <polyline class="cls-1" points="9.77 62.49 5.77 62.49 5.77 70.62"/>
+    <polyline class="cls-1" points="21 27.78 15.71 30.1 15.71 37.46"/>
+    <polyline class="cls-1" points="21 43.91 15.71 45.33 15.71 53.46 31.32 49.59 59.71 55.52 59.71 61.46 82.03 61.46 82.03 77.84"/>
+    <polyline class="cls-1" points="85.39 77.84 85.39 60.88 90.81 60.88"/>
+    <polygon class="cls-1" points="24.87 60.88 31.58 59.78 32.21 59.86 52.1 62.49 52.1 71.39 32.23 71.39 31.58 71.39 24.87 71.39 24.87 60.88"/>
+    <line class="cls-1" x1="16.38" y1="53.29" x2="16.38" y2="81.2"/>
+    <line class="cls-1" x1="48.35" y1="25.97" x2="48.87" y2="53.26"/>
+    <polyline class="cls-1" points="80.87 29.72 59.32 34.17 59.32 40.97 78.94 38.23 79.06 44.81 48.87 49.07 48.87 42.62 59.32 40.97"/>
+    <line class="cls-1" x1="31.58" y1="59.78" x2="31.58" y2="71.39"/>
+    <line class="cls-1" x1="62.03" y1="61.46" x2="62.03" y2="77.84"/>
+  </g>
+</svg>

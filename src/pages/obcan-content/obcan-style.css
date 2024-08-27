@@ -1,0 +1,165 @@
+.main-sec {
+  margin: 6rem 0;
+}
+
+.semi-title {
+  background-color: var(--red);
+  padding: 0.25rem;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.semi-content {
+  margin: 1.5rem 0;
+}
+
+.semi-content p {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.semi-content b {
+  font-weight: 600;
+  color: var(--red);
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.tel {
+  color: var(--blue);
+}
+
+.pohotovosti {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.pohotovosti .nemoc {
+  background-image: url(/img/pce.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  border: 2px solid var(--red);
+}
+
+.pohotovosti a {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  padding: 1.5rem 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pohotovosti .nemoc:nth-child(2) {
+  background-image: url(/img/chr.jpg);
+  background-position: bottom;
+}
+
+.pohotovosti .nemoc:nth-child(3) {
+  background-image: url(/img/uno.jpg);
+}
+
+.pohotovosti .nemoc:nth-child(4) {
+  background-image: url(/img/lit.jpg);
+  background-position: center;
+}
+
+.pohotovosti .nemoc:nth-child(5) {
+  background-image: url(/img/svi.jpg);
+}
+
+.pohotovosti .nemoc:nth-child(6) {
+  background-image: url(/img/sto.webp);
+}
+
+.pohotovosti h5 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pohotovosti .nemoc:hover a {
+  background-color: #5f0000c7 !important;
+}
+
+li::marker {
+  color: var(--red);
+  font-size: 1.2rem;
+  content: "»   ";
+  font-weight: 800;
+  padding-inline-start: 1rem;
+}
+
+.semi-content .primarec {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.okresy a {
+  margin: 1rem 0;
+  padding: 1.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--red);
+  font-weight: 500;
+  text-decoration: none;
+  width: 23%;
+  color: white;
+}
+
+.okresy a:hover {
+  background-color: var(--red-hover);
+  color: white;
+}
+
+.okres h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--red);
+}
+
+.okres h1 span {
+  color: var(--red);
+}
+
+@media (max-width: 768px) {
+  .pohotovosti-group {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .semi-content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .semi-content b {
+    font-size: 14px;
+  }
+
+  #lekar .semi-content b {
+    font-size: 14px !important;
+  }
+
+  .card3 {
+    flex-direction: column;
+  }
+
+  .pohotovosti {
+    grid-template-columns: 2fr;
+  }
+}

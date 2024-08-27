@@ -1,0 +1,49 @@
+.chatbot {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2rem;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-bot {
+  display: block;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.hide-bot {
+  display: none;
+}
+
+.chatbot i {
+  font-size: 1.5rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+  background-image: url(../img/chatbot-icon.jpeg) !important;
+  background-size: cover !important;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+  display: none !important;
+}
+
+.react-chatbot-kit-chat-input {
+  display: none !important;
+}
+
+.react-chatbot-kit-chat-input-form {
+  display: none !important;
+}

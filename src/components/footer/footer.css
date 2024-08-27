@@ -1,0 +1,307 @@
+/* FORMULÁŘ */
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-socials {
+  display: flex;
+}
+
+.footer-socials a {
+  margin-right: 1rem;
+}
+
+.footer-socials a i {
+  font-size: 25px;
+  color: black;
+}
+
+.footer-socials a i:hover {
+  color: var(--blue);
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer-title img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer-title h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+}
+
+.footer-title h2 .blue-logo {
+  color: var(--blue);
+}
+
+.footer-title h2 .red-logo {
+  color: var(--red);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-obcan {
+  display: flex;
+  margin-right: 3rem;
+  flex-direction: column;
+}
+
+.footer-lekar {
+  display: flex;
+  margin-right: 3rem;
+  flex-direction: column;
+}
+
+.footer-obcan h5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--red);
+  color: black;
+}
+
+.footer-lekar h5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--blue);
+  color: black;
+}
+
+.footer-useful h5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid black;
+  color: black;
+  white-space: nowrap;
+}
+
+.footer-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+
+.footer-menu a {
+  position: relative;
+  transition: -webkit-clip-path 275ms ease;
+  transition: clip-path 275ms ease;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+  width: fit-content;
+}
+.footer-menu a:hover span::before,
+.footer-menu a:focus span::before {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.footer-menu a span {
+  position: relative;
+  display: inline-block;
+  color: black;
+  white-space: nowrap;
+}
+.footer-menu a span::before {
+  position: absolute;
+  content: attr(data-content);
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+  text-decoration-color: black;
+  -webkit-clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  transition: -webkit-clip-path 275ms ease;
+  transition: clip-path 275ms ease;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+}
+
+.footer-bottom {
+  color: white;
+  background-color: #2d2d2d;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-content p {
+  margin: 1rem 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bottom-content span a {
+  font-weight: 500;
+  color: var(--yellow);
+}
+
+.bottom-content span a:hover {
+  color: white;
+  font-weight: 500;
+}
+
+/* KONEC FORMULÁŘE */
+
+@media (max-width: 1200px) {
+ 
+  .footer-obcan {
+    margin-right: 1rem;
+  }
+
+  .footer-lekar {
+    margin-right: 1rem;
+  }
+
+  .footer-useful {
+    margin-right: 1rem;
+  }
+
+  .footer-menu a {
+    font-size: 12px;
+  }
+
+  .footer-title h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .form-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-item {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+  }
+
+  .form-title h2 {
+    font-size: 40px;
+  }
+
+  .contact-item h5 {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-menu {
+    margin-left: 0;
+  }
+
+  .footer-socials {
+    margin-top: 1rem;
+  }
+
+  
+  .footer-title img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer-obcan {
+    margin-top: 3rem;
+  }
+  
+  .footer-lekar {
+    margin-top: 3rem;
+  }
+  
+  .footer-useful {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-title h2 {
+    font-size: 0.8rem;
+  }
+  .form-content {
+    flex-direction: column;
+  }
+
+  .form-contact {
+    flex-direction: column;
+  }
+
+  .form-content input {
+    margin: 0.5rem 0;
+  }
+
+  .form-content .email {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .form-content .text {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .form-content .btn {
+    width: 100%;
+  }
+
+  .footer-main {
+    justify-content: unset;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

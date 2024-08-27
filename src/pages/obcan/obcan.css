@@ -1,0 +1,297 @@
+.obcan-main {
+  margin-top: 6rem;
+}
+
+.bg-obcan {
+  background-image: url(/img/bg-obcan.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem 0;
+  gap: 6rem;
+}
+
+.sestraroku {
+  background-image: url(../img/sestraroku.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.sestra-show {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid var(--yellow);
+  padding: 4rem 0;
+}
+
+.sestra-show h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.sestra-show h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.sestraroku img {
+  width: 150px;
+  height: 150px;
+  margin-left: 4rem;
+}
+
+.order {
+  background-color: #f5f5f5;
+  background-image: url(../img/unrecognizable-medic-typing-laptop.webp);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.order-content {
+  color: white;
+  opacity: 1;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid var(--red);
+}
+
+.order-content a {
+  background-color: var(--red);
+  border: 2px solid var(--red);
+  color: white;
+}
+.order-content a:hover {
+  background-color: var(--red-hover);
+  border: 2px solid var(--red-hover);
+}
+
+.order-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.order-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.zachranka-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.zachranka {
+  width: 100%;
+  margin: 10rem 0 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 0;
+}
+
+.zachranka-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.zachranka-title h2 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.zachranka-title h5 {
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.zachranka-title img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.zachranka-main .phone {
+  display: block;
+  margin-top: -7rem;
+}
+
+.zachranka-content p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 24px;
+}
+
+.zachranka a {
+  color: black;
+  font-size: 14px;
+  margin: 0.25rem 0;
+  width: fit-content;
+}
+
+.zachranka a {
+  position: relative;
+  transition: -webkit-clip-path 275ms ease;
+  transition: clip-path 275ms ease;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+}
+.zachranka a:hover span::before,
+.zachranka a:focus span::before {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.zachranka a span {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+.zachranka a span::before {
+  position: absolute;
+  content: attr(data-content);
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+  text-decoration-color: black;
+  -webkit-clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  transition: -webkit-clip-path 275ms ease;
+  transition: clip-path 275ms ease;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+}
+
+.zachranka-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.download a {
+  margin-right: 1rem;
+}
+
+.download a img {
+  width: 110px;
+  height: auto;
+}
+
+
+.alert h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .rozcestnik-content {
+    flex-direction: column;
+  }
+
+  .rozcestnik-menu {
+    width: 100%;
+  }
+
+  .rozcestnik-menu .odkaz {
+    width: 100%;
+  }
+
+  .obcan-main {
+    margin-top: 4rem;
+  }
+
+  .zachranka-main .phone {
+    display: none;
+  }
+
+  .sestraroku img {
+    display: none;
+  }
+
+  .sestraroku {
+    background-size: cover;
+    background-position: top;
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .rozcestnik-menu .odkaz {
+    padding: 1rem 1rem;
+  }
+
+  .bg-obcan {
+    background-image: none;
+  }
+
+  .sestra-show h1 {
+    font-size: 26px;
+  }
+
+  .sestra-show h3 {
+    font-size: 14px;
+  }
+
+  .order-content h1 {
+    font-size: 26px;
+  }
+
+  .order-content h3 {
+    font-size: 14px;
+  }
+}

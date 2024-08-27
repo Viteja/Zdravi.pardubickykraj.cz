@@ -1,0 +1,139 @@
+.lekar-main {
+  margin-top: 6rem;
+}
+
+.bg-lekar {
+  background-image: url("/img/bg-lekar.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.semi-content .frend {
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.semi-content .frend .frend-content {
+  border-radius: 4px;
+}
+
+.frend {
+  background-color: #f5f5f5;
+  background-image: url("/img/karierabanner-min-min.webp");
+  width: 100%;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.frend-content {
+  color: white;
+  opacity: 1;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid var(--blue);
+}
+
+.frend2 {
+  background-color: #f5f5f5;
+  background-image: url("/img/staze_banner-min.webp");
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.frend2 .frend-content {
+  border-radius: 4px;
+}
+
+.frend3 .frend-content {
+  border-radius: 4px;
+}
+
+.frend3 {
+  background-color: #f5f5f5;
+  background-image: url("/img/skoleni_banner-min.webp");
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.frend-content a {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  color: white;
+}
+.frend-content a:hover {
+  background-color: var(--blue-hover);
+  border: 2px solid var(--blue-hover);
+}
+
+.frend-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.frend-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .bg-lekar {
+    background-image: none;
+  }
+
+  .frend-content h1 {
+    font-size: 26px;
+  }
+
+  .frend-content h3 {
+    font-size: 14px;
+  }
+
+  .frend2 {
+    background-position: left;
+  }
+
+  .frend3 {
+    background-position: right;
+  }
+
+  .frend3 .frend-content {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frend2 .frend-content {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frend .frend-content {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

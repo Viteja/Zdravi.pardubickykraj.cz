@@ -1,0 +1,330 @@
+#lekar .semi-title {
+  background-color: var(--blue);
+  padding: 0.25rem;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.semi-content p {
+  font-weight: 500;
+}
+
+#lekar .semi-content b {
+  font-weight: 600;
+  color: var(--blue);
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.semi-content h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0.5rem 0 0.5rem 0;
+  width: fit-content;
+  color: black;
+  text-transform: uppercase;
+}
+
+.semi-content h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 4rem 0 0.5rem 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+.semi-content h4 span {
+  color: var(--red);
+}
+
+.card2 {
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card2 .card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card2 .card-title h2 span {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.card2 a {
+  width: fit-content;
+  color: var(--blue);
+}
+
+.card2 a h2 {
+  border-bottom: 2px solid black;
+  color: var(--blue);
+}
+
+.card2 a:hover h2 {
+  color: black;
+}
+
+.card2 h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.card2 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card2 img {
+  width: 26px;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.card2 p b {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.card3 {
+  padding: 15px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.068);
+  border-radius: 4px;
+  margin: 1rem 0;
+  display: flex;
+  align-items: start;
+  align-items: center;
+}
+
+.card3 img {
+  width: auto;
+  height: 200px;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  border-left: 2px solid var(--red);
+}
+
+.card3 p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.card3 p i {
+  font-size: 14px;
+  padding: 0 0.25rem;
+}
+
+.card3 h5 {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--red);
+  margin: 0.5rem 0;
+}
+
+.map iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 4px;
+}
+
+.video {
+  background-color: var(--yellow);
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.video:hover {
+  background-color: #fce33f;
+}
+
+#lekar li::marker {
+  color: var(--blue);
+  font-size: 1.2rem;
+  content: "»   ";
+  font-weight: 800;
+  padding-inline-start: 1rem;
+}
+
+.okresy {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+#lekar .okresy a {
+  margin: 1rem 0;
+  padding: 1.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--blue);
+  font-weight: 500;
+  text-decoration: none;
+  width: 23%;
+  color: white;
+}
+
+#lekar .okresy a:hover {
+  background-color: var(--blue-hover);
+  color: white;
+}
+
+.okresy-odkaz h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.okresy-odkaz {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.okresy-odkaz img {
+  width: 60px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+#lekar .okres h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--blue);
+}
+
+#lekar .okres h1 span {
+  color: var(--blue);
+}
+
+.okres {
+  margin: 4rem 0;
+}
+
+#lekar .card2 p .bold {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.main-btn i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.main-btn:hover i {
+  animation: bounce 0.3s;
+}
+
+#lekar .main-btn:hover {
+  transition: all 0.3s;
+  background-position: 0 100%;
+}
+
+#lekar .main-btn {
+  margin: 0.5rem 0;
+  padding: 1.25rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ffdd00b6, #0062ad00 60%, transparent 40%);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+  background-size: 210% 110%;
+  background-position: 100%;
+  transition: background-position 300ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.semi-content .frend {
+  background-position: top;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .okresy a {
+    width: 100%;
+  }
+
+  .okresy {
+    flex-direction: column;
+  }
+
+  #lekar .okresy a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card2 {
+    padding: 15px;
+  }
+
+  .card2 h5 {
+    font-size: 14px;
+  }
+
+  .card2 p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0.5rem 0;
+  }
+
+  .card2 ul {
+    padding-left: 30px;
+  }
+
+  .semi-content .frend {
+    background-position: left;
+  }
+
+  .card3 img {
+    border-left: 0;
+  }
+}
