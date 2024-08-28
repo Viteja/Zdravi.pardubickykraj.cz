@@ -24,6 +24,7 @@ import Kraj from "./pages/obcan-content/kraj";
 import Skolstvi from "./pages/obcan-content/skolstvi";
 import Deti from "./pages/obcan-content/deti";
 import Zivot from "./pages/obcan-content/zivot";
+import Ustavy from "./pages/obcan-content/ustavy";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -47,7 +48,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/obcan" element={<Obcan />} />
           <Route exact path="/zdravotnik" element={<Lekar />} />
-          <Route exact path="/obcan/prakticti-lekari" element={<Lekari />} />
+          <Route exact path="/obcan/prakticti-lekari" element={<Lekari />} />*
           <Route exact path="/obcan/stomatologie-a-ortodoncie" element={<Zubar />} />
           <Route exact path="/obcan/lecebny-dlouhodobe-nemocnych" element={<Pece />} />
           <Route exact path="/obcan/pratelska-nemocnice" element={<Nemocnice />} />
@@ -65,6 +66,7 @@ function App() {
           <Route exact path="/obcan/zdravotnicke-skoly" element={<Skolstvi />} />
           <Route exact path="/obcan/detska-centra-zdravotni-pece-o-nejmensi" element={<Deti />} />
           <Route exact path="/obcan/jak-si-poradit-v-zivotnich-situacich" element={<Zivot />} />
+          <Route exact path="/obcan/rehabilitacni-ustavy" element={<Ustavy />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -84,7 +84,7 @@ export default function RozcestnikObcan() {
             </a>
             <a className={getClassName("/obcan/jak-si-poradit-v-zivotnich-situacich")} onClick={() => handleLinkClick("/obcan/jak-si-poradit-v-zivotnich-situacich", "semi")}>
               <div className="odkaz-title">
-                <img src="/img/zub.png" alt="Jak si poradit v životních situacích" />
+                <img src="/img/zivot.png" alt="Jak si poradit v životních situacích" />
                 <h5>Jak si poradit v životních situacích</h5>
               </div>
               <i className="fa-solid fa-chevron-right"></i>
@@ -119,10 +119,10 @@ export default function RozcestnikObcan() {
               </div>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
-            <a className="odkaz" href="https://www.rehabilitacniustav.cz/" target="_blank">
+            <a className={getClassName("/obcan/rehabilitacni-ustavy")} onClick={() => handleLinkClick("/obcan/rehabilitacni-ustavy", "semi")}>
               <div className="odkaz-title">
                 <img src="/img/rehab.png" alt="Rehabilitační ústav" />
-                <h5>Rehabilitační ústav</h5>
+                <h5>Rehabilitační ústavy</h5>
               </div>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
