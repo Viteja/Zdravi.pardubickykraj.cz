@@ -140,7 +140,7 @@ export default function RozcestnikObcan() {
               </div>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
-            <a className={getClassName("/obcan/detska-centra")} onClick={() => handleLinkClick("/obcan/detska-centra-zdravotni-pece-o-nejmensi", "semi")}>
+            <a className={getClassName("/obcan/detska-centra-zdravotni-pece-o-nejmensi")} onClick={() => handleLinkClick("/obcan/detska-centra-zdravotni-pece-o-nejmensi", "semi")}>
               <div className="odkaz-title">
                 <img src="/img/deti.png" alt="Dětská centra" />
                 <h5>Dětská centra - zdravotní péče o nejmenší</h5>
