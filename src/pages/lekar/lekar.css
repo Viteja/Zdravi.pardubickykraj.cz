@@ -104,6 +104,13 @@
   color: white;
 }
 
+#lekar .alert {
+  background-color: var(--blue);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .bg-lekar {
     background-image: none;

@@ -82,7 +82,13 @@ export default function RozcestnikObcan() {
               </div>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
-            
+            <a className={getClassName("/obcan/jak-si-poradit-v-zivotnich-situacich")} onClick={() => handleLinkClick("/obcan/jak-si-poradit-v-zivotnich-situacich", "semi")}>
+              <div className="odkaz-title">
+                <img src="/img/zub.png" alt="Jak si poradit v životních situacích" />
+                <h5>Jak si poradit v životních situacích</h5>
+              </div>
+              <i className="fa-solid fa-chevron-right"></i>
+            </a>
           </div>
           <div className="rozcestnik-menu">
             <a className={getClassName("/obcan/zdravotni-pojistovny")} onClick={() => handleLinkClick("/obcan/zdravotni-pojistovny", "semi")}>

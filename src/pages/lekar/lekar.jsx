@@ -19,8 +19,9 @@ export default function Lekar() {
       </Helmet>
       <Navbar />
       <Btnup />
-      <div className="lekar-main" id="lekar">
-        {/*  <div className="containerr">
+      <div id="lekar">
+        <div className="lekar-main">
+          {/*  <div className="containerr">
           <Splide
             options={{
               rewind: true,
@@ -34,10 +35,10 @@ export default function Lekar() {
             <Slider src={"./img/lekar.webp"} title={"Jsem zdravotník a chci pracovat v Pardubickém kraji"} href={"/lekar/benefity-mest-a-obci"} section={"semi"} />
           </Splide>
         </div>*/}
-        <div className="bg-lekar">
-          <RozcestnikLekar />
-        </div>
-        {/* <!--    <div className="aktuality">
+          <div className="bg-lekar">
+            <RozcestnikLekar />
+          </div>
+          {/* <!--    <div className="aktuality">
         <div className="container">
           <div className="obcan-title">
             <h5>Občan</h5>
@@ -76,53 +77,112 @@ export default function Lekar() {
         </div>
       </div> -->*/}
 
-        <div className="container">
-          <div className="info">
-            <div className="sestraroku" data-aos="fade-up" data-aos-duration="800">
-              <div className="sestra-show">
-                <h1>Sestřička Roku</h1>
-                <h3>Hlasujte do 31. 8. 2024</h3>
-                <a className="primary-btn" href="https://sestra.pardubickykraj.cz/" target="_blank">
-                  Zjistit více
-                </a>
+          <div className="container">
+            <div className="info">
+              <div
+                className="sestraroku"
+                data-aos="fade-up"
+                data-aos-duration="800">
+                <div className="sestra-show">
+                  <h1>Sestřička Roku</h1>
+                  <h3>Hlasujte do 31. 8. 2024</h3>
+                  <a
+                    className="primary-btn"
+                    href="https://sestra.pardubickykraj.cz/"
+                    target="_blank">
+                    Zjistit více
+                  </a>
+                </div>
+              </div>
+              <div
+                className="frend"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="100">
+                <div className="frend-content">
+                  <h1>Kariéra</h1>
+                  <h3>Nemocnice Padubického kraje</h3>
+                  <a
+                    className="primary-btn"
+                    href="https://kariera.nempk.cz/"
+                    target="_blank">
+                    Více informací
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="frend" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-              <div className="frend-content">
-                <h1>Kariéra</h1>
-                <h3>Nemocnice Padubického kraje</h3>
-                <a className="primary-btn" href="https://kariera.nempk.cz/" target="_blank">
-                  Více informací
-                </a>
+          </div>
+          <div className="zachranka">
+            <div className="container">
+              <div className="zachranka-main">
+                <div className="zachranka-content">
+                  <div className="zachranka-title">
+                    <img
+                      src="/img/zachranka-logo.png"
+                      alt="Záchranka logo"
+                      draggable="false"
+                    />
+                    <div className="title-text">
+                      <h2>Záchranka</h2>
+                      <h5>Mobilní aplikace pro tísňové volání</h5>
+                    </div>
+                  </div>
+                  <p>
+                    Ať už se nacházíte kdekoliv, nikdy nevíte, co se může stát.
+                    Záchranka je ve Vašem mobilním telefonu vždy připravena pro
+                    rychlé kontaktování zdravotnické záchranné služby nebo
+                    horské služby stiskem jediného tlačítka. Navíc má řadu
+                    dalších chytrých funkcí a propojení, která Vám v nouzi
+                    pomohou.
+                  </p>
+                  <a href="https://www.zachrankaapp.cz/" target="_blank">
+                    <span data-content="www.zachrankaapp.cz">
+                      www.zachrankaapp.cz
+                    </span>
+                  </a>
+                  <div className="download">
+                    <a
+                      href="https://apps.apple.com/cz/app/z%C3%A1chranka/id1071831457/"
+                      target="_blank">
+                      <img
+                        src="/img/appstore.png"
+                        alt="Appstore"
+                        draggable="false"
+                      />
+                    </a>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.medicalit.zachranka&hl=cs"
+                      target="_blank">
+                      <img
+                        src="/img/googleplay.png"
+                        alt="GooglePlay"
+                        draggable="false"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <img
+                  src="/img/zachranka-phone.png"
+                  alt=""
+                  draggable="false"
+                  className="phone"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                />
               </div>
             </div>
           </div>
         </div>
-        <div className="zachranka">
+        <div className="alert">
           <div className="container">
-            <div className="zachranka-main">
-              <div className="zachranka-content">
-                <div className="zachranka-title">
-                  <img src="/img/zachranka-logo.png" alt="Záchranka logo" draggable="false" />
-                  <div className="title-text">
-                    <h2>Záchranka</h2>
-                    <h5>Mobilní aplikace pro tísňové volání</h5>
-                  </div>
-                </div>
-                <p>Ať už se nacházíte kdekoliv, nikdy nevíte, co se může stát. Záchranka je ve Vašem mobilním telefonu vždy připravena pro rychlé kontaktování zdravotnické záchranné služby nebo horské služby stiskem jediného tlačítka. Navíc má řadu dalších chytrých funkcí a propojení, která Vám v nouzi pomohou.</p>
-                <a href="https://www.zachrankaapp.cz/" target="_blank">
-                  <span data-content="www.zachrankaapp.cz">www.zachrankaapp.cz</span>
-                </a>
-                <div className="download">
-                  <a href="https://apps.apple.com/cz/app/z%C3%A1chranka/id1071831457/" target="_blank">
-                    <img src="/img/appstore.png" alt="Appstore" draggable="false" />
-                  </a>
-                  <a href="https://play.google.com/store/apps/details?id=com.medicalit.zachranka&hl=cs" target="_blank">
-                    <img src="/img/googleplay.png" alt="GooglePlay" draggable="false" />
-                  </a>
-                </div>
-              </div>
-              <img src="/img/zachranka-phone.png" alt="" draggable="false" className="phone" data-aos="fade-up" data-aos-duration="800" />
+            <div className="alert-content">
+              <i className="fa-solid fa-circle-exclamation"></i>
+              <h2>Pozor! Tento Rozcestník neslouží k lékařským konzultacím!</h2>
+              <p>
+                Tento web je určen pouze k poskytování obecných informací z
+                oblasti zdravotnictví. Vždy se o svém zdravotním stavu poraďte s
+                lékařem nebo jiným kvalifikovaným zdravotnickým odborníkem.
+              </p>
             </div>
           </div>
         </div>
