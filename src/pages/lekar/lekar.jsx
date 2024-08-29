@@ -133,7 +133,9 @@ export default function Lekar() {
             <div className="alert-content">
               <i className="fa-solid fa-circle-exclamation"></i>
               <h2>Pozor! Tento Rozcestník neslouží k lékařským konzultacím!</h2>
-              <p>Tento web je určen pouze k poskytování obecných informací z oblasti zdravotnictví. Vždy se o svém zdravotním stavu poraďte s lékařem nebo jiným kvalifikovaným zdravotnickým odborníkem.</p>
+              <p>
+                Tento web je určen pouze k poskytování obecných informací z oblasti zdravotnictví. <br /> Vždy se o svém zdravotním stavu poraďte s lékařem nebo jiným kvalifikovaným zdravotnickým odborníkem.
+              </p>
             </div>
           </div>
         </div>
