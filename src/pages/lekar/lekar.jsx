@@ -19,6 +19,7 @@ export default function Lekar() {
       </Helmet>
       <Navbar />
       <Btnup />
+      <Chatbot />
       <div id="lekar">
         <div className="lekar-main">
           {/*  <div className="containerr">

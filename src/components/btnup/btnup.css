@@ -2,14 +2,15 @@
   display: none;
   position: fixed;
   bottom: 6rem;
-  right: 1.5rem;
+  right: 2rem;
   z-index: 99;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #myBtn i {

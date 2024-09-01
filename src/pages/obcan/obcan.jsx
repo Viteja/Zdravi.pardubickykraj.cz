@@ -20,6 +20,7 @@ export default function Obcan() {
       </Helmet>
       <Navbar />
       <Btnup />
+      <Chatbot />
       <div className="obcan-main" id="obcan">
         {/*  <div className="containerr">
           <Splide

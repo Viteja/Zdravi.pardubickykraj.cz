@@ -49,7 +49,7 @@ export default function Footer() {
               </a>
               <div className="footer-text">
                 <p>
-                  <span>Znáte důležité informace ze zdravotnictví</span>, které by mohly být přínosné pro ostatní? Jste z obcí a měst, které nabízí benefity pro zdravotníky a nejste zde uvedeni, <span>napište nám</span>. Vaše zpětná vazba je pro nás důležitá. E-mail: <span>zdravi@pardubickykraj.cz</span>
+                  <span>Znáte důležité informace ze zdravotnictví</span>, které by mohly být přínosné pro ostatní? <br /> Jste z obcí a měst, které nabízí benefity pro zdravotníky a nejste zde uvedeni, <span>napište nám</span>. <br /> Vaše zpětná vazba je pro nás důležitá. <br /> E-mail: <span>zdravi@pardubickykraj.cz</span>
                 </p>
               </div>
             </div>
