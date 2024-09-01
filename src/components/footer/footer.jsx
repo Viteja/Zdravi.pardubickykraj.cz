@@ -47,16 +47,10 @@ export default function Footer() {
                   </h2>
                 </div>
               </a>
-              <div className="footer-socials">
-                <a href="/">
-                  <i className="fa-brands fa-facebook"></i>
-                </a>
-                <a href="/">
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-                <a href="/">
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
+              <div className="footer-text">
+                <p>
+                  <span>Znáte důležité informace ze zdravotnictví</span>, které by mohly být přínosné pro ostatní? Jste z obcí a měst, které nabízí benefity pro zdravotníky a nejste zde uvedeni, <span>napište nám</span>. Vaše zpětná vazba je pro nás důležitá. E-mail: <span>zdravi@pardubickykraj.cz</span>
+                </p>
               </div>
             </div>
             <div className="footer-links">
@@ -112,6 +106,12 @@ export default function Footer() {
                   </a>
                   <a href="https://www.nempk.cz/" target="_blank">
                     <span data-content="Nemocnice Pardubického kraje">Nemocnice Pardubického kraje</span>
+                  </a>
+                  <a href="https://www.pardubickykraj.cz/zrizovane-a-zakladane-organizace-v-oblasti-zdravotnictvi" target="_blank">
+                    <span data-content="Zdravotnická zařízení zakládaná a zřizovaná">
+                      Zdravotnická zařízení zakládaná a zřizovaná <br />
+                      Pardubickým krajem
+                    </span>
                   </a>
                 </div>
               </div>

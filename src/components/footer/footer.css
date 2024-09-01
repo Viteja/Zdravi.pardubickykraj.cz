@@ -15,24 +15,18 @@
 .footer-main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.footer-socials {
-  display: flex;
+.footer-text p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  width: 80%;
+  line-height: 24px;
 }
 
-.footer-socials a {
-  margin-right: 1rem;
-}
-
-.footer-socials a i {
-  font-size: 25px;
-  color: black;
-}
-
-.footer-socials a i:hover {
-  color: var(--blue);
+.footer-text p span {
+  font-weight: 600;
 }
 
 .footer-title {
@@ -189,7 +183,6 @@
 /* KONEC FORMULÁŘE */
 
 @media (max-width: 1200px) {
- 
   .footer-obcan {
     margin-right: 1rem;
   }
@@ -247,20 +240,19 @@
     margin-top: 1rem;
   }
 
-  
   .footer-title img {
     width: 25px;
     height: 25px;
   }
-  
+
   .footer-obcan {
     margin-top: 3rem;
   }
-  
+
   .footer-lekar {
     margin-top: 3rem;
   }
-  
+
   .footer-useful {
     margin-top: 3rem;
   }

@@ -101,7 +101,7 @@ export default function RozcestnikObcan() {
             <a className="odkaz" href="https://www.pardubickykraj.cz/zrizovane-a-zakladane-organizace-v-oblasti-zdravotnictvi" target="_blank">
               <div className="odkaz-title">
                 <img src="/img/organizace.png" alt="Zdravotnictví zřizované Pardubickým krajem" />
-                <h5>Zdravotnictví zřizované Pardubickým krajem</h5>
+                <h5>Zdravotnická zařízení zakládaná a zřizovaná Pardubickým krajem</h5>
               </div>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
