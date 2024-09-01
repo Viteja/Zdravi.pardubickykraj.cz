@@ -423,10 +423,6 @@ export default function Benefity() {
                 </ul>
               </div>
             </div>
-            <p>
-              Nenašli jste Vaše město, nebo obec? Napište nám: <b>kveta.sterbova@pardubickykraj.cz</b>
-            </p>
-            <p>Děkujeme všem, kteří se snaží podporovat krajské zdravotnictví a jdou do toho s námi.</p>
           </div>
         </div>
       </div>
