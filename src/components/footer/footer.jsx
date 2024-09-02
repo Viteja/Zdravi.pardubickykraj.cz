@@ -83,9 +83,6 @@ export default function Footer() {
                   <a href="https://www.uradprace.cz/web/cz/pomoc-pro-obcany-ukrajiny-a-jejich-zamestnavatele" target="_blank">
                     <span data-content="Občan Ukrajiny + info pro zaměstnavatele">Občan Ukrajiny + info pro zaměstnavatele</span>
                   </a>
-                  <a onClick={() => handleLinkClick("/obcan/mapa", "semi")}>
-                    <span data-content="Vyhledejte si svého lékaře">Vyhledejte si svého lékaře</span>
-                  </a>
                   <a onClick={() => handleLinkClick("/obcan/zdravotni-pojistovny", "semi")}>
                     <span data-content="Zdravotní pojišťovny">Zdravotní pojišťovny</span>
                   </a>
@@ -102,10 +99,19 @@ export default function Footer() {
                     <span data-content="Dětská centra - zdravotní péče o nejmenší">Dětská centra - zdravotní péče o nejmenší</span>
                   </a>
                   <a href="https://www.rehabilitacniustav.cz/" target="_blank">
-                    <span data-content="Rehabilitační ústav">Rehabilitační ústav</span>
+                    <span data-content="Rehabilitační ústav">Rehabilitační ústavy</span>
                   </a>
                   <a href="https://www.nempk.cz/" target="_blank">
                     <span data-content="Nemocnice Pardubického kraje">Nemocnice Pardubického kraje</span>
+                  </a>
+                  <a href="https://bezlepkupocesku.cz/" target="_blank">
+                    <span data-content="Potravinová intolerance">Potravinová intolerance</span>
+                  </a>
+                  <a onClick={() => handleLinkClick("/obcan/co-delame-pro-zlepseni-krajskeho-zdravotnictvi", "semi")}>
+                    <span data-content="Co děláme pro zlepšení zdravotnictví">Co děláme pro zlepšení zdravotnictví</span>
+                  </a>
+                  <a onClick={() => handleLinkClick("/obcan/jak-si-poradit-v-zivotnich-situacich", "semi")}>
+                    <span data-content="Jak si poradit v životních situacích">Jak si poradit v životních situacích</span>
                   </a>
                   <a href="https://www.pardubickykraj.cz/zrizovane-a-zakladane-organizace-v-oblasti-zdravotnictvi" target="_blank">
                     <span data-content="Zdravotnická zařízení zakládaná a zřizovaná">
@@ -139,7 +145,7 @@ export default function Footer() {
                     <span data-content="Přátelská nemocnice">Přátelská nemocnice</span>
                   </a>
                   <a onClick={() => handleLinkClick("/zdravotnik/kariera", "semi")}>
-                    <span data-content="Kariéra">Kariéra</span>
+                    <span data-content="Kariéra - přidejte se k nám">Kariéra - přidejte se k nám</span>
                   </a>
                   <a href="https://www.nempk.cz/" target="_blank">
                     <span data-content="Nemocnice Pardubického kraje">Nemocnice Pardubického kraje</span>

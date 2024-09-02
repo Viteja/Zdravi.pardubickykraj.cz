@@ -121,7 +121,7 @@ export default function RozcestnikObcan() {
             </a>
             <a className={getClassName("/obcan/rehabilitacni-ustavy")} onClick={() => handleLinkClick("/obcan/rehabilitacni-ustavy", "semi")}>
               <div className="odkaz-title">
-                <img src="/img/rehab.png" alt="Rehabilitační ústav" />
+                <img src="/img/rehab.png" alt="Rehabilitační ústavy" />
                 <h5>Rehabilitační ústavy</h5>
               </div>
               <i className="fa-solid fa-chevron-right"></i>
