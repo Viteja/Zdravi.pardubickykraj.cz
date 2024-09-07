@@ -7,10 +7,12 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikObcan from "../../components/rozcestnik/rozcestnik-obcan";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Deti() {
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Dětská centra zdravotní péče o nejmenší | Zdraví Pardubického kraje</title>
@@ -22,7 +24,7 @@ export default function Deti() {
         <RozcestnikObcan />
         <div className="semi-title" id="semi">
           <div className="container">
-            <h2>Dětská centra -  zdravotní péče o nejmenší</h2>
+            <h2>Dětská centra - zdravotní péče o nejmenší</h2>
           </div>
         </div>
         <div className="container">

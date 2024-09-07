@@ -9,11 +9,12 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikObcan from "../../components/rozcestnik/rozcestnik-obcan";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Obcan() {
-  const [isSestra, setIsSestra] = useState(false);
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Občan | Zdraví Pardubického kraje</title>

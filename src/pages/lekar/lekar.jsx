@@ -9,10 +9,12 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikLekar from "../../components/rozcestnik/rozcestnik-lekar";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Lekar() {
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Zdravotník | Zdraví Pardubického kraje</title>

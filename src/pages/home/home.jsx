@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Home() {
   let navigate = useNavigate();
@@ -18,6 +19,7 @@ export default function Home() {
   };
   return (
     <>
+      <CookieConsent />
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />

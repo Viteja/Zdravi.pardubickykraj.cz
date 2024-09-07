@@ -6,10 +6,12 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikObcan from "../../components/rozcestnik/rozcestnik-obcan";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Ustavy() {
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Rehabilitační ústavy | Zdraví Pardubického kraje</title>

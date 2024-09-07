@@ -6,10 +6,12 @@ import { useNavigate } from "react-router-dom";
 import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikLekar from "../../components/rozcestnik/rozcestnik-lekar";
 import Btnup from "../../components/btnup/btnup";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Nemocnice2() {
   return (
     <>
+      <CookieConsent />
       <Navbar />
       <Chatbot />
       <Btnup />

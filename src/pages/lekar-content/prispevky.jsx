@@ -7,6 +7,7 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikLekar from "../../components/rozcestnik/rozcestnik-lekar";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Prispevky() {
   let navigate = useNavigate();
@@ -21,6 +22,7 @@ export default function Prispevky() {
   };
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Náborové příspěvky | Zdraví Pardubického kraje</title>

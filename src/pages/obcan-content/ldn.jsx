@@ -7,6 +7,7 @@ import Chatbot from "../../components/chatbot/chatbot";
 import RozcestnikObcan from "../../components/rozcestnik/rozcestnik-obcan";
 import Btnup from "../../components/btnup/btnup";
 import { Helmet } from "react-helmet";
+import CookieConsent from "../../components/Cookies/cookies";
 
 export default function Pece() {
   let navigate = useNavigate();
@@ -21,6 +22,7 @@ export default function Pece() {
   };
   return (
     <>
+      <CookieConsent />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Léčebny dlouhodobě nemocných | Zdraví Pardubického kraje</title>
